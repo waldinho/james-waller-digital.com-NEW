@@ -6,3 +6,5 @@ To do:
 
 1. Loading spinner
 2. Navigation
+3. Find cool picture for the homepage.
+4. Decide on colours.
