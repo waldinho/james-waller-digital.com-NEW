@@ -6,5 +6,6 @@ To do:
 
 1. Loading spinner
 2. Navigation
-3. Find cool picture for the homepage.
+3. Find cool picture for the homepage, perhaps do random image generator.
 4. Decide on colours.
+5. Set up JSON file for content.
