@@ -9,3 +9,4 @@ To do:
 3. Find cool picture for the homepage, perhaps do random image generator.
 4. Decide on colours.
 5. Set up JSON file for content.
+6. Fonts and typography CSS
