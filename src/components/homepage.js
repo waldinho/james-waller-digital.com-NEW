@@ -8,7 +8,6 @@ class Homepage extends Component {
     }
     backgroundImageRandom = () => {
         const randomNum = Math.floor(Math.random() * 5);
-        console.log(randomNum)
         return 'homepage-image-' + (randomNum) + ' full-cover'
     }
 

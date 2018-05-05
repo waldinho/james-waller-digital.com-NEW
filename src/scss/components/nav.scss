@@ -1,0 +1,21 @@
+.nav {
+    ul {
+    position: absolute;
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+    top:50px;
+    right:50px;
+    background:#000;
+    color:#fff;
+    z-index:1;
+    border: 1px solid #fff;
+    }
+    li {
+        padding: 15px 30px;
+        border-bottom:1px solid #fff;
+        &:last-child {
+            border-bottom:none;
+        }
+    }
+}
