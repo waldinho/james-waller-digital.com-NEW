@@ -1,3 +1,29 @@
-body {
-  background: #000;
+.full-cover {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.homepage-image-0 {background:url('../../img/bgimage-1.jpg');background-size:100% 100%}
+.homepage-image-1 {background:url('../../img/bgimage-2.jpg');background-size:100% 100%}
+.homepage-image-2 {
+  background:url('../../img/bgimage-3.jpg');background-size:100% 100%;
+  .text-bg {
+    mix-blend-mode: multiply;
+  }
+}
+.homepage-image-3 {background:url('../../img/bgimage-4.jpg');background-size:100% 100%}
+.homepage-image-4 {
+  background:url('../../img/bgimage-5.jpg');background-size:100% 100%;
+  .text-bg {
+    mix-blend-mode: multiply;
+  }
+}
+
+.text-bg{
+  background:#000;
+  display: inline-block;
+  padding: 0 1%;
+  margin: 22.5% 0 0 12.5%;
+  height: 6.75em;
 }
