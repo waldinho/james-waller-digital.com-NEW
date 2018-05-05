@@ -18,6 +18,10 @@ export function getNav() {
         },
         {
             id: 5,
+            title: 'Resume',
+        },
+        {
+            id: 6,
             title: 'Contact',
         }
     ]
