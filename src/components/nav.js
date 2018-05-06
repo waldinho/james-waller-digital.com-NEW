@@ -12,7 +12,17 @@ class Nav extends Component {
 
     return (
         <div className='nav'>
-            <ul>{navItems}</ul>
+            <div className='burger-bg'>
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        {navItems}
+                    </ul>
+                </div>
+            </div>
         </div>
     )}
 }

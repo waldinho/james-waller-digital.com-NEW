@@ -22,8 +22,6 @@
 .afternoon .homepage-image-1 {
   background: url("../../img/bgimage-6.jpg");
   background-size: 100% 100%; }
-  .afternoon .homepage-image-1 .text-bg {
-    mix-blend-mode: multiply; }
 
 .evening .homepage-image-0 {
   background: url("../../img/bgimage-1.jpg");
