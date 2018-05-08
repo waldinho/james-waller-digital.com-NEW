@@ -10,3 +10,4 @@ To do:
 4. Decide on colours.
 5. Set up JSON file for content.
 6. Fonts and typography CSS.
+7. Set up re-usable components
