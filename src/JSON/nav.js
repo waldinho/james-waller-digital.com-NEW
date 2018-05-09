@@ -24,11 +24,6 @@ export function getNav() {
             id: 5,
             title: 'Resume',
             url: '/resume',
-        },
-        {
-            id: 6,
-            title: 'Contact',
-            url: '/contact',
         }
     ]
 }
