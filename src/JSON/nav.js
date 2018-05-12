@@ -3,7 +3,7 @@ export function getNav() {
         {
             id: 1,
             title: 'Homepage',
-            url: '/home',
+            url: '/',
         },
         {
             id: 2,

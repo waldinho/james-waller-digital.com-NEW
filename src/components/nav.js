@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom'
 
 import { getNav } from '../JSON/nav';
 
@@ -10,7 +10,7 @@ class Nav extends Component {
 
     render() {
         const nav = getNav()
-        const navItems = nav.map((item) => { return ( <Link to={itme.url}><li key={item.id}>{item.title}</li></Link>)})
+        const navItems = nav.map((item) => { return ( <Link to={item.url}><li key={item.id}>{item.title}</li></Link>)})
 
     return (
         <div className='nav'>
