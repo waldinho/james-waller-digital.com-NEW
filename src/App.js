@@ -13,7 +13,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router>
           <div>
               <Route exact path="/" component={Homepage} />
               <Route path="/about" component={About} />
@@ -21,7 +20,6 @@ class App extends Component {
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/resume" component={Resume} />
           </div>
-        </Router>        
         <Nav /> 
       </div>
     );
