@@ -14,11 +14,11 @@ class App extends Component {
     return (
       <div>
           <div>
-              <Route exact path="/" component={Homepage} />
-              <Route path="/about" component={About} />
-              <Route path="/services" component={Services} />
-              <Route path="/portfolio" component={Portfolio} />
-              <Route path="/resume" component={Resume} />
+            <Route exact path="/" component={Homepage} />
+            <Route path="/about" component={About} />
+            <Route path="/services" component={Services} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/resume" component={Resume} />
           </div>
         <Nav /> 
       </div>
