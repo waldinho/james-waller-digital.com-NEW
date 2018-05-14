@@ -16,22 +16,9 @@ class Homepage extends Component {
         const curHr = today.getHours()
 
         if (curHr < 12) {
-            return 'Good morning'  
+            return 'morning'  
         } else if (curHr < 17) {
-            return 'Good afternoon'  
-        } else {
-            return 'Good evening'
-        }
-    }
-
-    dayClass = () => {
-        const today = new Date()
-        const curHr = today.getHours()
-
-        if (curHr < 12) {
-            return 'morning'
-        } else if (curHr < 17) {
-            return 'afternoon'
+            return 'afternoon'  
         } else {
             return 'evening'
         }
@@ -40,12 +27,11 @@ class Homepage extends Component {
     render() {
         const backgroundImage = this.backgroundImageRandom()
         const greeting = this.greeting()
-        const dayClass = this.dayClass()
         return (
-            <div className={dayClass}>
+            <div className={greeting}>
                 <div className={backgroundImage}>
                     <div className='text-bg'>
-                        <h1>{greeting}</h1>
+                        <h1>Good {greeting}</h1>
                     </div>
                 </div>
             </div>

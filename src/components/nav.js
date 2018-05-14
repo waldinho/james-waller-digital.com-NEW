@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom'
 import { getNav } from '../JSON/nav';
 
 class Nav extends Component {
-    // constructor(props) {
-    //     super(props)
-    // }
 
     render() {
         const nav = getNav()
