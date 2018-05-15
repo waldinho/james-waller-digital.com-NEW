@@ -10,3 +10,4 @@ To do:
 4. Fonts and typography CSS.
 5. Set up re-usable components.
 6. Add content.
+7. Find a few more pictures for homepage.
