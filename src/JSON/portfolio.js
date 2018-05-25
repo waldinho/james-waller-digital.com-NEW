@@ -24,37 +24,37 @@ export function getPortfolio() {
             id: 5,
             title: 'eBay',
             url: '/ebay',
-        }
+        },
         {
             id: 6,
             title: 'StubHub',
             url: '/stubhub',
-        }
+        },
         {
             id: 7,
             title: 'Kurt Geiger',
             url: '/kurt-geiger',
-        }
+        },
         {
             id: 8,
             title: 'Shell',
             url: '/shell',
-        }
+        },
         {
             id: 9,
             title: 'Tradefair',
             url: '/tradefair',
-        }
+        },
         {
             id: 10,
             title: 'BetVictor',
             url: '/betvictor',
-        }
+        },
         {
             id: 11,
             title: 'LCG',
             url: '/lcg',
-        }
+        },
         {
             id: 12,
             title: 'The Smalls',
