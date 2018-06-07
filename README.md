@@ -1,5 +1,7 @@
 Started 17.03.2018
 
+http://animista.net/ - Styling inspiration.
+
 To do:
 
 1. Loading spinner
