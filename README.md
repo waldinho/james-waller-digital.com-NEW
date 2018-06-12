@@ -18,4 +18,4 @@ To do:
       - Front page logo font - https://codepen.io/rahulsel/pen/JvmRYa?page=1&
 5. Set up re-usable components (grid and title/text).
 6. Add content.
-7. Find a few more pictures for homepage.
+7. Find a few more pictures for homepage (not sure on this theme so park for now).
