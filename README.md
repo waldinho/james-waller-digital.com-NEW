@@ -19,3 +19,4 @@ To do:
 5. Set up re-usable components (grid and title/text).
 6. Add content.
 7. Find a few more pictures for homepage (not sure on this theme so park for now).
+8. Remember to add stuff in from AKQA (Bunnings, Homebase, etc).
