@@ -3,3 +3,11 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Poiret One', cursive; }
+
+:root {
+  --dark: #3e3e3e;
+  --light: #ffffff;
+  --primary-red: #ff6060;
+  --neutral-grey: #ebebeb;
+  --title-text: #3e3e3e;
+  --body-text: #6e6e6e; }

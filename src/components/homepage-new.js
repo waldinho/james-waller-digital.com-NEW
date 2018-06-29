@@ -20,13 +20,10 @@ class Homepage extends Component {
     }
 
     render() {
-
         const greeting = this.greeting()
         return (
-            <div className={greeting}>
-                    <div className='text-bg'>
-                        <h1>Good {greeting}</h1>
-                    </div>
+            <div className='text-bg'>
+                Good {greeting}
             </div>
         );
     }

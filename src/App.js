@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Route } from "react-router-dom";
 import './App.css';
 
-import Homepage from './components/homepage'
+import Homepage from './components/homepage-new'
 import Nav from './components/nav'
 import About from "./containers/about";
 import Services from "./containers/services";
