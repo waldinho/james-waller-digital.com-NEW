@@ -8,7 +8,7 @@ To do:
 2. Set up JSON file for content.
 3. Fonts and typography CSS. 
       - Maybe - https://www.fontsquirrel.com/fonts/tex-gyre-adventor or similar for font.
-      - Front page logo font - https://codepen.io/rahulsel/pen/JvmRYa?page=1&
+      - Front page logo example - https://codepen.io/rahulsel/pen/JvmRYa?page=1&
 4. Set up re-usable components (grid and title/text).
 5. Add content.
 6. Find a few more pictures for homepage (not sure on this theme so park for now).
