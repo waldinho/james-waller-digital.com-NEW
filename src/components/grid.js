@@ -5,7 +5,7 @@ class Grid extends Component {
     render() {
 
         return (
-            <div>
+            <div className='grid'>
                 
             </div>
         );
