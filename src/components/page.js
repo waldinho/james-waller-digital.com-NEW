@@ -5,7 +5,7 @@ class Page extends Component {
     render() {
 
         return (
-            <div>
+            <div className='page'>
                 
             </div>
         );
