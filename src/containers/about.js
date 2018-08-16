@@ -10,6 +10,7 @@ class About extends Component {
     return (
         <div className='about'>
             About
+            <Page />
         </div>
     )}
 }
