@@ -6,23 +6,23 @@ import './App.css';
 
 import Homepage from './components/homepage-new'
 import Nav from './components/nav'
-import About from "./containers/about";
-import Services from "./containers/services";
-import Portfolio from "./containers/portfolio";
-import Resume from "./containers/resume";
+import About from './containers/about';
+import Services from './containers/services';
+import Portfolio from './containers/portfolio';
+import Resume from './containers/resume';
 
 class App extends Component {
   render() {
     return (
       <div>
+        <Nav />
           <div>
             <Route exact path="/" component={Homepage} />
-            <Route path="about" component={About} />
-            <Route path="services" component={Services} />
-            <Route path="portfolio" component={Portfolio} />
-            <Route path="resume" component={Resume} />
+            <Route path="/about" component={About} />
+            <Route path="/services" component={Services} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/resume" component={Resume} />
           </div>
-        <Nav /> 
       </div>
     );
   }

@@ -22,9 +22,11 @@ class Homepage extends Component {
     render() {
         const greeting = this.greeting()
         return (
-            <div className='text-bg'>
-                Good <br/>
-                {greeting}
+            <div className='home'>
+                <div className='text-bg'>
+                    Good <br/>
+                    {greeting}
+                </div>
             </div>
         );
     }
