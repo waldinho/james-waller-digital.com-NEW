@@ -6,7 +6,6 @@ class Page extends Component {
 
         return (
             <div className='page'>
-                <h1>jgsenjrlgsd;nkdj</h1>
             </div>
         );
     }
