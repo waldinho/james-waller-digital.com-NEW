@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Page from '../components/page.js';
 
 class Services extends Component {
     // constructor(props) {
@@ -9,7 +10,7 @@ class Services extends Component {
 
     return (
         <div className='services'>
-            Services
+            <Page />
         </div>
     )}
 }

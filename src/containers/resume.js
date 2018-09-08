@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Page from '../components/page.js';
 
 class Resume extends Component {
     // constructor(props) {
@@ -9,7 +10,7 @@ class Resume extends Component {
 
     return (
         <div className='resume'>
-            Resume
+            <Page />
         </div>
     )}
 }

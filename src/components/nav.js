@@ -7,21 +7,11 @@ class Nav extends Component {
 
     render() {
         const nav = getNav()
-        const navItems = nav.map((item) => { return ( <Link to={item.url}><li key={item.id}>{item.title}</li></Link>)})
+        const navItems = nav.map((item) => { return ( <Link to={item.url} className="item" activeClassName="active"><p key={item.id}>{item.title}</p></Link>)})
 
     return (
         <div className='nav'>
-            <div className='burger-bg'>
-                <div id="menuToggle">
-                    <input type="checkbox" />
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <ul id="menu">
-                        {navItems}
-                    </ul>
-                </div>
-            </div>
+            {navItems}
         </div>
     )}
 }
