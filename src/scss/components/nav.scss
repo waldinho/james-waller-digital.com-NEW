@@ -16,38 +16,31 @@
         padding: 0 20px 0px 20px;
         // border-top: 10px solid #000;
         // border-bottom: 10px solid #000;
-        // -webkit-transition: all 0.4s ease;
-        // transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
         &:last-child {
         }
         p {
 
         }
     }
-    .item:not(:active),
-    a.item:not(:active) {
-        // border-top: 0px solid #000;
-        // border-bottom: 0px solid #000;
-    }
     a.item:hover {
         text-decoration: none;
         background: #000;
-        border-top: 10px solid #fff;
-        border-bottom: 0px solid #000;
+        // border-top: 10px solid #fff;
         padding: 0 20px 0px 20px;
-        -webkit-transition: all 0.2s ease;
-        transition: all 0.2s ease;
-        color: #ffff;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        color: #fafa6c;
     }
     .item.active,
     a.item:focus {
         text-decoration: none;
         background: #000;
-        border-bottom: 0px solid #000;
-        border-top: 10px solid #45e7ff;
+        // border-top: 10px solid #45e7ff;
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease;
-        color: #fff;
+        color: #45e7ff;
     }
     a {
         color: #fff;
