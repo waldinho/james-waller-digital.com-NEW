@@ -11,7 +11,6 @@ class Nav extends Component {
 
     return (
         <div className='nav'>
-            <NavLink exact to="/" className="item" activeClassName="active" key="1"><p>Homepage</p></NavLink>
             {navItems}
         </div>
     )}
