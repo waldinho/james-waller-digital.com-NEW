@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Route } from "react-router-dom";
+// Nav doesn't work without Router for some wierd reason.
+// eslint-disable-next-line
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
 import Homepage from './components/homepage-new'
@@ -15,10 +17,10 @@ class App extends Component {
       <div>
           <div>
             <Route exact path="/" component={Homepage} />
-            <Route path="/about" component={About} />
-            <Route path="/services" component={Services} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/resume" component={Resume} />
+            <Route path="about" component={About} />
+            <Route path="services" component={Services} />
+            <Route path="portfolio" component={Portfolio} />
+            <Route path="resume" component={Resume} />
           </div>
         <Nav /> 
       </div>
