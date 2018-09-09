@@ -3,7 +3,7 @@ export function getAbout() {
         {
             id: 1,
             title: 'About me!',
-            parargraph: [
+            paragraph: [
                 {
                     id: 1,
                     text: 'My name is James Waller and I am a Web Developer specialising in everything your average web visitor sees and feels. User interface design and front end development.',
@@ -26,7 +26,7 @@ export function getAbout() {
                 },
                 {
                     id: 3,
-                }
+                },
                 {
                     id: 4,
                 },

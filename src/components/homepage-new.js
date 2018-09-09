@@ -23,7 +23,7 @@ class Homepage extends Component {
         const greeting = this.greeting()
         return (
             <div className='home'>
-                <div className='text-bg'>
+                <div className='text__bg'>
                     Good <br/>
                     {greeting}
                 </div>
