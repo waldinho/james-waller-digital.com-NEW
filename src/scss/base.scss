@@ -13,15 +13,18 @@ html, body {
   width:100%;
 }
 
-:root {
-  --dark: #3e3e3e; 
-  --light: #ffffff;
-  --primary-red: #ff6060;
-  --neutral-grey: #ebebeb;
-  --title-text: #3e3e3e;
-  --body-text: #6e6e6e;
-}
-
+$dark: #3e3e3e; 
+$light: #ffffff;
+$primary-red: #ff6060;
+$neutral-grey: #ebebeb;
+$title-text: #3e3e3e;
+$body-text: #6e6e6e;
+$black: #000;
+$white: #fff;
+$blue: #45e7ff;
+$secondary-red: #ff0090;
+$yellow: #fafa6c;  
+  
 @font-face {
   font-family: 'lostwage';
   src: url('../fonts/lostwages/lostwages.otf');
