@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Grid from '../components/grid.js';
 
 class Portfolio extends Component {
     // constructor(props) {
@@ -9,7 +10,7 @@ class Portfolio extends Component {
 
     return (
         <div className='portolio'>
-            Portfolio
+            <Grid />
         </div>
     )}
 }

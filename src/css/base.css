@@ -2,7 +2,14 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Poiret One', cursive; }
+  font-family: 'Poiret One', cursive;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  width: 100%; }
 
 :root {
   --dark: #3e3e3e;

@@ -1,3 +1,21 @@
-#page {
-    
+.page {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    padding: 0 10%;
+    margin: 0 5%;
+    color: #000;
+    h1 {
+        margin-top: 15%;
+        color: #000;
+    }
+    .page__content {
+        
+    }
 }
