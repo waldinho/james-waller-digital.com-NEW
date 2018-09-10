@@ -7,7 +7,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid $white;
     position: fixed;
     width: 100%;
     min-height: 60px;
@@ -29,23 +29,23 @@
     a.item:hover {
         text-decoration: none;
         background: #000;
-        // border-top: 10px solid #fff;
+        // border-top: 10px solid $white;
         padding: 0 20px 0px 20px;
         -webkit-transition: all 0.4s ease;
         transition: all 0.4s ease;
-        color: #fafa6c;
+        color: $yellow;
     }
     .item.active,
     a.item:focus {
         text-decoration: none;
         background: #000;
-        // border-top: 10px solid #45e7ff;
+        // border-top: 10px solid $blue;
         -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease;
-        color: #45e7ff;
+        color: $blue;
     }
     a {
-        color: #fff;
+        color: $white;
         text-decoration: none;
     }
 }
