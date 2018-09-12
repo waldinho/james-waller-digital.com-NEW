@@ -11,14 +11,6 @@ html, body {
   align-items: center;
   width: 100%; }
 
-:root {
-  --dark: #3e3e3e;
-  --light: #ffffff;
-  --primary-red: #ff6060;
-  --neutral-grey: #ebebeb;
-  --title-text: #3e3e3e;
-  --body-text: #6e6e6e; }
-
 @font-face {
   font-family: 'lostwage';
   src: url("../fonts/lostwages/lostwages.otf"); }

@@ -1,10 +1,10 @@
 export function getNav() {
     return [
-        // {
-        //     id: 1,
-        //     title: 'Homepage',
-        //     url: '/',
-        // },
+        {
+            id: 1,
+            title: 'Homepage',
+            url: '/',
+        },
         {
             id: 2,
             title: 'About me',

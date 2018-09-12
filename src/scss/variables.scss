@@ -1,0 +1,65 @@
+// ========================
+// ======== Colors ========
+// ========================
+
+$primary-red:                #ff6060;
+$neutral-grey:               #ebebeb;
+$title-text:                 #3e3e3e;
+$body-text:                  #6e6e6e;
+$black:                      #000000;
+$white:                      #ffffff;
+$blue:                       #45e7ff;
+$secondary-red:              #ff0080;
+$yellow:                     #fafa6c;  
+
+// ========================
+// ===== Font sizes =======
+// ========================
+
+$font-size-base:             11px;
+$font-size-large:            ceil(($font-size-base * 1.25)); // ~18px
+$font-size-small:            ceil(($font-size-base * 0.85)); // ~12px
+ 
+$font-size-h1:               floor(($font-size-base * 2.6)); // ~36px
+$font-size-h2:               floor(($font-size-base * 2.15)); // ~30px
+$font-size-h3:               ceil(($font-size-base * 1.7)); // ~24px
+$font-size-h4:               ceil(($font-size-base * 1.25)); // ~18px
+$font-size-h5:               $font-size-base;
+$font-size-h6:               ceil(($font-size-base * 0.85)); // ~12px
+
+// ========================
+// ======= Spacing ========
+// ========================
+
+$spacing-small:              1rem;
+$spacing-medium:             2rem;
+$spacing-large:              3rem;
+
+// ========================
+// ===== Break points =====
+// ========================
+
+// Extra small screen / phone
+$screen-xs:                  480px;
+$screen-xs-min:              $screen-xs;
+$screen-phone:               $screen-xs-min;
+
+// Small screen / tablet
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+$screen-tablet:              $screen-sm-min;
+
+// Medium screen / desktop
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+$screen-desktop:             $screen-md-min;
+
+// Large screen / wide desktop
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+$screen-lg-desktop:          $screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);
