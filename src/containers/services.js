@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Page from '../components/page.js';
+import Grid from '../components/grid.js';
+
+import { getServices } from '../JSON/services';
 
 class Services extends Component {
     // constructor(props) {
@@ -7,10 +9,23 @@ class Services extends Component {
     // }
 
     render() {
+        const services = getServices()
+        const title = services[0].title 
+        const columns = services[0].service.length
+        const servicesText = services[0].service.map((item) => { 
+            return ( 
+            <div className={columns + '--columns service__' + item.id} key={item.id}>
+                <h2>{item.title}</h2>
+                <p>{item.text}</p>
+            </div> 
+        )})
 
     return (
         <div className='services'>
-            <Page />
+            <Grid 
+            title={title}
+            text={servicesText}
+            />
         </div>
     )}
 }
