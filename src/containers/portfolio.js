@@ -1,16 +1,31 @@
 import React, { Component } from 'react';
 import Grid from '../components/grid.js';
 
+import { getPortfolio } from '../JSON/portfolio';
+
 class Portfolio extends Component {
     // constructor(props) {
     //     super(props)
     // }
 
     render() {
+        const portfolio = getPortfolio()
+        const title = portfolio.title 
+        const columns = portfolio.length / 2
+        const portfolioText = portfolio.map((item) => { 
+            return ( 
+            <div className={columns + '--columns portfolio__' + item.id} key={item.id}>
+                <h2>{item.title}</h2>
+                {/* <p>{item.text}</p> */}
+            </div> 
+        )})
 
     return (
-        <div className='portolio'>
-            <Grid />
+        <div className='portfolio'>
+            <Grid 
+            title={title}
+            text={portfolioText}
+            />
         </div>
     )}
 }
