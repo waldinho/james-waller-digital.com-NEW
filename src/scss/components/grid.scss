@@ -1,6 +1,23 @@
-
 @import '../variables';
 
 .grid {
-    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: $white;
+    padding: 0 $spacing-medium;
+    margin: 0 $spacing-medium;
+    color: $black;
+    h1 {
+        margin-top: $spacing-large;
+        color: $black;
+    }
+    .grid__content {
+        
+    }
 }

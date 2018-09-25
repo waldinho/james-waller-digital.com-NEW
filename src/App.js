@@ -26,13 +26,11 @@ class App extends Component {
     return (
       <div>
         <Nav />
-          <div>
-            <Route exact path="/" component={Homepage} />
-            <Route path="/about" component={About} />
-            <Route path="/services" component={Services} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/resume" component={Resume} />
-          </div>
+          <Route exact path="/" component={Homepage} />
+          <Route path="/about" component={About} />
+          <Route path="/services" component={Services} />
+          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/resume" component={Resume} />
       </div>
     );
   }
