@@ -11,10 +11,10 @@ class Portfolio extends Component {
     render() {
         const portfolio = getPortfolio()
         const title = portfolio[0].title 
-        const columns = portfolio[0].companies.length / 2
+        const columns = portfolio[0].companies.length / 3
         const portfolioText = portfolio[0].companies.map((item) => { 
             return ( 
-                <div className={columns + '--columns portfolio__' + item.id} key={item.id}>
+                <div className={'columns__' + columns + ' portfolio__' + item.id} key={item.id}>
                     <h2>{item.title}</h2>
                     {/* <p>{item.text}</p> */}
                 </div> 
