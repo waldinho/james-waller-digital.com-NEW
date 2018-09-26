@@ -18,6 +18,16 @@
         color: $black;
     }
     .grid__content {
-        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        .columns {
+            padding: 0 $spacing-small;
+        }
     }
 }

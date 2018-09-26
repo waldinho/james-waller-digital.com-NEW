@@ -14,3 +14,14 @@
   .grid h1 {
     margin-top: 6rem;
     color: #000000; }
+  .grid .grid__content {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center; }
+    .grid .grid__content .columns {
+      padding: 0 1rem; }
