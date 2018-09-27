@@ -9,7 +9,7 @@ class Portfolio extends Component {
         this.state = {
             isHidden: true,
             isActive: true,
-            isRest: false,
+            isRest: true,
         }
         this.toggleHidden = this.toggleHidden.bind(this)
     }
@@ -37,6 +37,7 @@ class Portfolio extends Component {
         const {
             isHidden,
             isActive,
+            isRest,
             currentTarget
         } = this.state
 
@@ -44,7 +45,7 @@ class Portfolio extends Component {
         
         const clickedElement = 'show--' + currentTarget
         const hiddenElement = 'hide--' + currentTarget
-        const hideRest = 'hide--rest'
+        const hideRest = 'hide'
         const portfolio = getPortfolio()
         const title = portfolio[0].title 
         const columns = portfolio[0].companies.length / 3
@@ -54,7 +55,7 @@ class Portfolio extends Component {
 
             const hidden = (isHidden ? hiddenElement : clickedElement);
             const active = (isActive ? clickedElement : hiddenElement);
-            const rest = (isActive ? hideRest : '');
+            const rest = (isRest ? '' : hideRest);
 
             const blurb = item.text.map((text) => {
                 return (
@@ -62,12 +63,12 @@ class Portfolio extends Component {
                 )
             })
             return ( 
-                <div id={item.id} onClick={this.toggleHidden.bind(this)} className={rest}>
-                    <div id={item.id}className={'item columns--' + columns + ' portfolio--' + item.id + ' ' + active}>
-                        <div  id={item.id} className='comapny'><h2 id={item.id}>{item.title}</h2></div>
+                <div id={item.id} onClick={this.toggleHidden.bind(this)}>
+                    <div id={item.id} className={'item columns--' + columns + ' portfolio--' + item.id + ' ' + active}>
+                        <div  id={item.id} className={'title--' + rest}><h2 id={item.id}>{item.title}</h2></div>
                     </div>
                     <div id={item.id} className={'columns--1--hidden-item portfolio--' + item.id + ' ' + hidden}>
-                        <div id={item.id} className='comapny'><h2 id={item.id}>{item.title}</h2></div>
+                        <div id={item.id} className='title'><h2 id={item.id}>{item.title}</h2></div>
                         <div id={item.id} className='blurb'>{blurb}</div>
                     </div>
                 </div>

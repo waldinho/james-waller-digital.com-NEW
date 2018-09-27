@@ -1,5 +1,11 @@
 @import '../variables';
 
+#1 {
+    &.hide--rest2 {
+        display: none;
+    }
+}
+
 .portfolio {
     h2 {
         min-height: 60px;
