@@ -11,7 +11,7 @@ export function getPortfolio() {
                 text: [
                     {
                         id: 1,
-                        paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+                        paragraph: "Bunnings Warehouse - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
                     },
                     {
                         id: 2,
@@ -34,7 +34,7 @@ export function getPortfolio() {
                     },
                     {
                         id: 2,
-                        paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+                        paragraph: "Homebase - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
                     },
                     {
                         id: 3,
@@ -57,7 +57,7 @@ export function getPortfolio() {
                     },
                     {
                         id: 3,
-                        paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+                        paragraph: "The Independent - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
                     }
                 ]
             },
