@@ -38,6 +38,8 @@
       align-self: flex-start; }
     .grid .grid__content .columns--1 {
       width: 80%; }
+      .grid .grid__content .columns--1--hidden-item {
+        display: none; }
     .grid .grid__content .columns--2 {
       width: calc(80% / 2); }
     .grid .grid__content .columns--3 {

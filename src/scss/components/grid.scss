@@ -43,6 +43,9 @@
         .columns {
             &--1 {
                 width: 80%;
+                &--hidden-item {
+                    display: none;
+                }
             }
             &--2 {
                 width: calc(80% / 2);
