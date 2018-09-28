@@ -1,7 +1,111 @@
 @import '../variables';
 
+#1 {
+    &.hide--rest2 {
+        display: none;
+    }
+}
+
 .portfolio {
     h2 {
         min-height: 60px;
+    }
+    .portfolio {
+        &--1 {
+            &.hide--1 {
+                display: none;
+            }
+            &.show--1 {
+                display: block;
+            }
+        }
+        &--2 {
+            &.hide--2 {
+                display: none;
+            }
+            &.show--2 {
+                display: block;
+            }
+        }
+        &--3 {
+            &.hide--3 {
+                display: none;
+            }
+            &.show--3 {
+                display: block;
+            }
+        }
+        &--4 {
+            &.hide--4 {
+                display: none;
+            }
+            &.show--4 {
+                display: block;
+            }
+        }
+        &--5 {
+            &.hide--5 {
+                display: none;
+            }
+            &.show--5 {
+                display: block;
+            }
+        }
+        &--6 {
+            &.hide--6 {
+                display: none;
+            }
+            &.show--6 {
+                display: block;
+            }
+        }
+        &--7 {
+            &.hide--7 {
+                display: none;
+            }
+            &.show--7 {
+                display: block;
+            }
+        }
+        &--8 {
+            &.hide--8 {
+                display: none;
+            }
+            &.show--8 {
+                display: block;
+            }
+        }
+        &--9 {
+            &.hide--9 {
+                display: none;
+            }
+            &.show--9 {
+                display: block;
+            }
+        }
+        &--10 {
+            &.hide--10 {
+                display: none;
+            }
+            &.show--10 {
+                display: block;
+            }
+        }
+        &--11 {
+            &.hide--11 {
+                display: none;
+            }
+            &.show--11 {
+                display: block;
+            }
+        }
+        &--12 {
+            &.hide--12 {
+                display: none;
+            }
+            &.show--12 {
+                display: block;
+            }
+        }
     }
 }
