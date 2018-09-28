@@ -8,7 +8,7 @@ $title-text:                 #3e3e3e;
 $body-text:                  #6e6e6e;
 $black:                      #000000;
 $white:                      #ffffff;
-$blue:                       #45e7ff;
+$blue:                       #2ec4ff;
 $secondary-red:              #ff0080;
 $yellow:                     #fafa6c;  
 
@@ -16,9 +16,9 @@ $yellow:                     #fafa6c;
 // ===== Font sizes =======
 // ========================
 
-$font-size-base:             11px;
+$font-size-base:             18px;
 $font-size-large:            ceil(($font-size-base * 1.25)); // ~18px
-$font-size-small:            ceil(($font-size-base * 0.85)); // ~12px
+$font-size-small:            ceil(($font-size-base * 0.75)); // ~12px
  
 $font-size-h1:               floor(($font-size-base * 2.6)); // ~36px
 $font-size-h2:               floor(($font-size-base * 2.15)); // ~30px
@@ -31,9 +31,10 @@ $font-size-h6:               ceil(($font-size-base * 0.85)); // ~12px
 // ======= Spacing ========
 // ========================
 
-$spacing-small:              1rem;
-$spacing-medium:             3rem;
-$spacing-large:              6rem;
+$spacing-small:              2%;
+$spacing-medium:             5%;
+$spacing-large:              10%;
+$spacing-top:                6rem;
 
 // ========================
 // ===== Break points =====
