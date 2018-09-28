@@ -22,8 +22,8 @@
     left: 0;
     bottom: 0;
     right: 0;
-    -webkit-animation: flicker-in-1 5s linear both;
-    animation: flicker-in-1 5s linear both; }
+    -webkit-animation: flicker-in-1 3s linear both;
+    animation: flicker-in-1 3s linear both; }
 
 @-webkit-keyframes flicker-in-1 {
   0% {

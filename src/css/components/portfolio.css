@@ -1,77 +1,63 @@
 #1.hide--rest2 {
   display: none; }
 
-.portfolio h2 {
-  min-height: 60px; }
-
-.portfolio .portfolio--1.hide--1 {
-  display: none; }
-
-.portfolio .portfolio--1.show--1 {
-  display: block; }
-
-.portfolio .portfolio--2.hide--2 {
-  display: none; }
-
-.portfolio .portfolio--2.show--2 {
-  display: block; }
-
-.portfolio .portfolio--3.hide--3 {
-  display: none; }
-
-.portfolio .portfolio--3.show--3 {
-  display: block; }
-
-.portfolio .portfolio--4.hide--4 {
-  display: none; }
-
-.portfolio .portfolio--4.show--4 {
-  display: block; }
-
-.portfolio .portfolio--5.hide--5 {
-  display: none; }
-
-.portfolio .portfolio--5.show--5 {
-  display: block; }
-
-.portfolio .portfolio--6.hide--6 {
-  display: none; }
-
-.portfolio .portfolio--6.show--6 {
-  display: block; }
-
-.portfolio .portfolio--7.hide--7 {
-  display: none; }
-
-.portfolio .portfolio--7.show--7 {
-  display: block; }
-
-.portfolio .portfolio--8.hide--8 {
-  display: none; }
-
-.portfolio .portfolio--8.show--8 {
-  display: block; }
-
-.portfolio .portfolio--9.hide--9 {
-  display: none; }
-
-.portfolio .portfolio--9.show--9 {
-  display: block; }
-
-.portfolio .portfolio--10.hide--10 {
-  display: none; }
-
-.portfolio .portfolio--10.show--10 {
-  display: block; }
-
-.portfolio .portfolio--11.hide--11 {
-  display: none; }
-
-.portfolio .portfolio--11.show--11 {
-  display: block; }
-
-.portfolio .portfolio--12.hide--12 {
-  display: none; }
-
-.portfolio .portfolio--12.show--12 {
-  display: block; }
+.portfolio {
+  margin: 0 5%; }
+  .portfolio h1 {
+    padding: 0.6rem 0 0.2rem 0; }
+  .portfolio h2 {
+    min-height: 60px;
+    min-width: 250px;
+    text-align: center; }
+  .portfolio .title {
+    width: 100%; }
+  .portfolio .blurb {
+    margin: 0 18%; }
+  .portfolio .portfolio--1.hide--1 {
+    display: none; }
+  .portfolio .portfolio--1.show--1 {
+    display: block; }
+  .portfolio .portfolio--2.hide--2 {
+    display: none; }
+  .portfolio .portfolio--2.show--2 {
+    display: block; }
+  .portfolio .portfolio--3.hide--3 {
+    display: none; }
+  .portfolio .portfolio--3.show--3 {
+    display: block; }
+  .portfolio .portfolio--4.hide--4 {
+    display: none; }
+  .portfolio .portfolio--4.show--4 {
+    display: block; }
+  .portfolio .portfolio--5.hide--5 {
+    display: none; }
+  .portfolio .portfolio--5.show--5 {
+    display: block; }
+  .portfolio .portfolio--6.hide--6 {
+    display: none; }
+  .portfolio .portfolio--6.show--6 {
+    display: block; }
+  .portfolio .portfolio--7.hide--7 {
+    display: none; }
+  .portfolio .portfolio--7.show--7 {
+    display: block; }
+  .portfolio .portfolio--8.hide--8 {
+    display: none; }
+  .portfolio .portfolio--8.show--8 {
+    display: block; }
+  .portfolio .portfolio--9.hide--9 {
+    display: none; }
+  .portfolio .portfolio--9.show--9 {
+    display: block; }
+  .portfolio .portfolio--10.hide--10 {
+    display: none; }
+  .portfolio .portfolio--10.show--10 {
+    display: block; }
+  .portfolio .portfolio--11.hide--11 {
+    display: none; }
+  .portfolio .portfolio--11.show--11 {
+    display: block; }
+  .portfolio .portfolio--12.hide--12 {
+    display: none; }
+  .portfolio .portfolio--12.show--12 {
+    display: block; }
