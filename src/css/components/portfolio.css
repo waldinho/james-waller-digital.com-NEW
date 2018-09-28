@@ -4,7 +4,7 @@
 .portfolio {
   margin: 0 5%; }
   .portfolio h1 {
-    padding: 0.6rem 0; }
+    padding: 0.6rem 0 0.2rem 0; }
   .portfolio h2 {
     min-height: 60px;
     min-width: 250px;
@@ -12,7 +12,7 @@
   .portfolio .title {
     width: 100%; }
   .portfolio .blurb {
-    margin: 0 22%; }
+    margin: 0 18%; }
   .portfolio .portfolio--1.hide--1 {
     display: none; }
   .portfolio .portfolio--1.show--1 {
