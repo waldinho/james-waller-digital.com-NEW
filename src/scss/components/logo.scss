@@ -1,0 +1,30 @@
+@import '../variables';
+
+.logo {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: left;
+    position: fixed;
+    top: 6.5rem;
+    left: 3rem;
+    .logo__image {
+        background: url('../../img/logo-JW.png');
+        background-size: 100%;
+        width: 91px;
+        height: 60px;
+    }
+    .logo__text {
+        font-size: $font-size-small - 1px;
+        color: $primary-red;
+        padding-top: 2px;
+    }
+    .logo__location {
+        font-size: $font-size-small - 3px;
+        font-style: italic;
+    }
+}
