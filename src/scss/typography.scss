@@ -4,3 +4,13 @@ h1 {
     font-size:5em;
     margin: 0;
 }
+
+a {
+    color: $primary-red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $blue;
+    text-decoration: none;
+}

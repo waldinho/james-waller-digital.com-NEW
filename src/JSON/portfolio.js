@@ -57,9 +57,8 @@ export function getPortfolio() {
                     },
                     {
                         id: 3,
-                        paragraph: "The finished version of the landing page can be found <Link to=\"http://www.james-waller.co.uk/loyal-subscribers\" className='link-indy' target='_blank'>here</Link>."
-                    }
-                    ,
+                        paragraph: "The finished version of the landing page can be found <a href=\"http://www.james-waller.co.uk/loyal-subscribers\" className=\"link-indy\" target=\"_blank\">here</a>."
+                    },
                     {
                         id: 4,
                         paragraph: "And, the original designs for the landing page can be perused below. The only change from the original design was to implement a different font on the landing page to what was on the original designs."
@@ -116,7 +115,7 @@ export function getPortfolio() {
                     },
                     {
                         id: 7,
-                        paragraph: "<Link to='http://portal.ebay.co.uk/gsp' target='_blank' className='lp-link'>Link</Link> to landing page"
+                        paragraph: "<a href='http://portal.ebay.co.uk/gsp' target='_blank' className='lp-link'>Link</a> to landing page"
                     },
                     {
                         id: 8,

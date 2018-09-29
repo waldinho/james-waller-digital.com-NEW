@@ -1,3 +1,11 @@
 h1 {
   font-size: 5em;
   margin: 0; }
+
+a {
+  color: #ff6060;
+  text-decoration: none; }
+
+a:hover {
+  color: #2ec4ff;
+  text-decoration: none; }
