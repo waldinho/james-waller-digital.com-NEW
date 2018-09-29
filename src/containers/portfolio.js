@@ -52,19 +52,19 @@ class Portfolio extends Component {
             
             const blurb = item.text.map((text) => {
                 return (
-                    <p>{text.paragraph}</p>
+                    <p dangerouslySetInnerHTML={{__html: text.paragraph}}></p>
                 )
             })
 
             return ( 
-                <div id={item.id} onClick={this.toggleHidden.bind(this)}>
+                <div>
 
-                    <div className={'item columns--' + columns + ' portfolio--' + item.id + ' ' + active}>
+                    <div id={item.id} onClick={this.toggleHidden.bind(this)} className={'item columns--' + columns + ' portfolio--' + item.id + ' ' + active}>
                         <div className={'title--' + rest}><h2 id={item.id}>{item.title}</h2></div>
                     </div>
 
                     <div className={'columns--1--hidden-item portfolio--' + item.id + ' ' + hidden}>
-                        <div className='title'><h2 id={item.id}>{item.title}</h2></div>
+                        <div id={item.id} onClick={this.toggleHidden.bind(this)} className='title'><h2 id={item.id}>{item.title}</h2></div>
                         <div className='blurb'>{blurb}</div>
                     </div>
 
