@@ -10,6 +10,7 @@ class Portfolio extends Component {
             isHidden: true,
             isActive: true,
             isRest: true,
+            currentTarget: 'none'
         }
         this.toggleHidden = this.toggleHidden.bind(this)
     }
