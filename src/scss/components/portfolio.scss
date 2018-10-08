@@ -1,11 +1,5 @@
 @import '../variables';
 
-#1 {
-    &.hide--rest2 {
-        display: none;
-    }
-}
-
 .portfolio {
     margin: 0 $spacing-medium;
     h1 {
@@ -13,111 +7,45 @@
     }
     h2 {
         min-height: 60px;
-        min-width: 250px;
+        min-width: 220px;
         text-align: center;
     }
     .title {
-        width:100%
+        width:100%;
+        -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
     .blurb {
         margin: 0 $spacing-large * 1.8;
+        -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+    @-webkit-keyframes blurb-fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    @keyframes blurb-fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
     .portfolio {
-        &--1 {
-            &.hide--1 {
-                display: none;
-            }
-            &.show--1 {
-                display: block;
-            }
-        }
-        &--2 {
-            &.hide--2 {
-                display: none;
-            }
-            &.show--2 {
-                display: block;
+        @for $i from 1 through 12 {
+            &--#{$i} {
+                &.hide--#{$i} {
+                    display: none;
+                }
+                &.show--#{$i} {
+                    display: block;
+                }
             }
         }
-        &--3 {
-            &.hide--3 {
-                display: none;
-            }
-            &.show--3 {
-                display: block;
-            }
-        }
-        &--4 {
-            &.hide--4 {
-                display: none;
-            }
-            &.show--4 {
-                display: block;
-            }
-        }
-        &--5 {
-            &.hide--5 {
-                display: none;
-            }
-            &.show--5 {
-                display: block;
-            }
-        }
-        &--6 {
-            &.hide--6 {
-                display: none;
-            }
-            &.show--6 {
-                display: block;
-            }
-        }
-        &--7 {
-            &.hide--7 {
-                display: none;
-            }
-            &.show--7 {
-                display: block;
-            }
-        }
-        &--8 {
-            &.hide--8 {
-                display: none;
-            }
-            &.show--8 {
-                display: block;
-            }
-        }
-        &--9 {
-            &.hide--9 {
-                display: none;
-            }
-            &.show--9 {
-                display: block;
-            }
-        }
-        &--10 {
-            &.hide--10 {
-                display: none;
-            }
-            &.show--10 {
-                display: block;
-            }
-        }
-        &--11 {
-            &.hide--11 {
-                display: none;
-            }
-            &.show--11 {
-                display: block;
-            }
-        }
-        &--12 {
-            &.hide--12 {
-                display: none;
-            }
-            &.show--12 {
-                display: block;
-            }
-        }
-    }
+    }   
 }

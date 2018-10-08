@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Logo from './logo';
 
 class Grid extends Component {
 
@@ -6,6 +7,7 @@ class Grid extends Component {
 
         return (
             <div className='grid'>
+                <Logo />
                 <h1>
                     {this.props.title}
                 </h1>

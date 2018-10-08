@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Logo from './logo';
 
 class Page extends Component {
 
@@ -6,6 +7,7 @@ class Page extends Component {
 
         return (
             <div className='page'>
+                <Logo />
                 <h1>
                     {this.props.title}
                 </h1>

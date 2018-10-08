@@ -1,18 +1,31 @@
-#1.hide--rest2 {
-  display: none; }
-
 .portfolio {
   margin: 0 5%; }
   .portfolio h1 {
     padding: 0.6rem 0 0.2rem 0; }
   .portfolio h2 {
     min-height: 60px;
-    min-width: 250px;
+    min-width: 220px;
     text-align: center; }
   .portfolio .title {
-    width: 100%; }
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .blurb {
-    margin: 0 18%; }
+    margin: 0 18%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+
+@-webkit-keyframes blurb-fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes blurb-fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
   .portfolio .portfolio--1.hide--1 {
     display: none; }
   .portfolio .portfolio--1.show--1 {
