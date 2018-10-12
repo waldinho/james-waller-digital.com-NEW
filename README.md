@@ -1,5 +1,3 @@
-http://animista.net/ - Styling inspiration.
-
 To do:
 
 1. Styling for re-usable components (grid and title/text).
