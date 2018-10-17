@@ -1,8 +1,30 @@
 @import '../variables';
 
 .services {
-    h2 {
-        height: 60px;
-        width: 180px;
-    }
+    .service {
+        @for $i from 1 through 4 {
+            &--#{$i} {
+                .title {
+                    background: url('../../img/service-#{$i}.png');
+                    height: 180px;
+                    width: 230px;
+                    h2 {
+                        background: $primary-red;
+                        color: $black;
+                        padding: $spacing-small;
+                        margin: $spacing-medium;
+                        opacity: 0.8;
+                        line-height: $font-size-large * 1.25;
+                        height: 60px;
+                        width: 180px;
+                        &:hover {
+                            opacity: 1;
+                            background: $black;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }   
 }
