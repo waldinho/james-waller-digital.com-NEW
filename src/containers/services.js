@@ -15,7 +15,7 @@ class Services extends Component {
         const servicesText = services[0].service.map((item) => { 
             return ( 
                 <div className={'item columns--' + columns + ' service--' + item.id} key={item.id}>
-                    <h2>{item.title}</h2>
+                    <div className="title"><h2>{item.title}</h2></div>
                     <p>{item.text}</p>
                 </div>
             )

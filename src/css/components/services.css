@@ -1,3 +1,71 @@
-.services h2 {
-  height: 60px;
-  width: 180px; }
+.services .service--1 .title {
+  background: url("../../img/service-1.png");
+  height: 180px;
+  width: 230px; }
+  .services .service--1 .title h2 {
+    background: #ff6060;
+    color: #000000;
+    padding: 2%;
+    margin: 5%;
+    opacity: 0.8;
+    line-height: 28.75px;
+    height: 60px;
+    width: 180px; }
+    .services .service--1 .title h2:hover {
+      opacity: 1;
+      background: #000000;
+      color: #ffffff; }
+
+.services .service--2 .title {
+  background: url("../../img/service-2.png");
+  height: 180px;
+  width: 230px; }
+  .services .service--2 .title h2 {
+    background: #ff6060;
+    color: #000000;
+    padding: 2%;
+    margin: 5%;
+    opacity: 0.8;
+    line-height: 28.75px;
+    height: 60px;
+    width: 180px; }
+    .services .service--2 .title h2:hover {
+      opacity: 1;
+      background: #000000;
+      color: #ffffff; }
+
+.services .service--3 .title {
+  background: url("../../img/service-3.png");
+  height: 180px;
+  width: 230px; }
+  .services .service--3 .title h2 {
+    background: #ff6060;
+    color: #000000;
+    padding: 2%;
+    margin: 5%;
+    opacity: 0.8;
+    line-height: 28.75px;
+    height: 60px;
+    width: 180px; }
+    .services .service--3 .title h2:hover {
+      opacity: 1;
+      background: #000000;
+      color: #ffffff; }
+
+.services .service--4 .title {
+  background: url("../../img/service-4.png");
+  height: 180px;
+  width: 230px; }
+  .services .service--4 .title h2 {
+    background: #ff6060;
+    color: #000000;
+    padding: 2%;
+    margin: 5%;
+    opacity: 0.8;
+    line-height: 28.75px;
+    height: 60px;
+    width: 180px; }
+    .services .service--4 .title h2:hover {
+      opacity: 1;
+      background: #000000;
+      color: #ffffff; }
