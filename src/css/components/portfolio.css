@@ -3,13 +3,9 @@
   .portfolio h1 {
     padding: 0.6rem 0 0.2rem 0; }
   .portfolio h2 {
-    min-height: 60px;
-    min-width: 220px;
+    min-height: 120px;
+    min-width: 180px;
     text-align: center; }
-  .portfolio .title {
-    width: 100%;
-    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .blurb {
     margin: 0 18%;
     -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -30,47 +26,239 @@
     display: none; }
   .portfolio .portfolio--1.show--1 {
     display: block; }
+  .portfolio .portfolio--1 .title-- {
+    background: url("../../img/company-1.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--1 .title {
+    background: url("../../img/company-1.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--2.hide--2 {
     display: none; }
   .portfolio .portfolio--2.show--2 {
     display: block; }
+  .portfolio .portfolio--2 .title-- {
+    background: url("../../img/company-2.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--2 .title {
+    background: url("../../img/company-2.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--3.hide--3 {
     display: none; }
   .portfolio .portfolio--3.show--3 {
     display: block; }
+  .portfolio .portfolio--3 .title-- {
+    background: url("../../img/company-3.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--3 .title {
+    background: url("../../img/company-3.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--4.hide--4 {
     display: none; }
   .portfolio .portfolio--4.show--4 {
     display: block; }
+  .portfolio .portfolio--4 .title-- {
+    background: url("../../img/company-4.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--4 .title {
+    background: url("../../img/company-4.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--5.hide--5 {
     display: none; }
   .portfolio .portfolio--5.show--5 {
     display: block; }
+  .portfolio .portfolio--5 .title-- {
+    background: url("../../img/company-5.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--5 .title {
+    background: url("../../img/company-5.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--6.hide--6 {
     display: none; }
   .portfolio .portfolio--6.show--6 {
     display: block; }
+  .portfolio .portfolio--6 .title-- {
+    background: url("../../img/company-6.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--6 .title {
+    background: url("../../img/company-6.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--7.hide--7 {
     display: none; }
   .portfolio .portfolio--7.show--7 {
     display: block; }
+  .portfolio .portfolio--7 .title-- {
+    background: url("../../img/company-7.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--7 .title {
+    background: url("../../img/company-7.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--8.hide--8 {
     display: none; }
   .portfolio .portfolio--8.show--8 {
     display: block; }
+  .portfolio .portfolio--8 .title-- {
+    background: url("../../img/company-8.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--8 .title {
+    background: url("../../img/company-8.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--9.hide--9 {
     display: none; }
   .portfolio .portfolio--9.show--9 {
     display: block; }
+  .portfolio .portfolio--9 .title-- {
+    background: url("../../img/company-9.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--9 .title {
+    background: url("../../img/company-9.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--10.hide--10 {
     display: none; }
   .portfolio .portfolio--10.show--10 {
     display: block; }
+  .portfolio .portfolio--10 .title-- {
+    background: url("../../img/company-10.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--10 .title {
+    background: url("../../img/company-10.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--11.hide--11 {
     display: none; }
   .portfolio .portfolio--11.show--11 {
     display: block; }
+  .portfolio .portfolio--11 .title-- {
+    background: url("../../img/company-11.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--11 .title {
+    background: url("../../img/company-11.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
   .portfolio .portfolio--12.hide--12 {
     display: none; }
   .portfolio .portfolio--12.show--12 {
     display: block; }
+  .portfolio .portfolio--12 .title-- {
+    background: url("../../img/company-12.png");
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin: 25px;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  .portfolio .portfolio--12 .title {
+    background: url("../../img/company-12.png");
+    background-size: 155px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
