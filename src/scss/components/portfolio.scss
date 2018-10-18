@@ -2,18 +2,14 @@
 
 .portfolio {
     margin: 0 $spacing-medium;
+    
     h1 {
         padding: 0.6rem 0 0.2rem 0;
     }
     h2 {
-        min-height: 60px;
-        min-width: 220px;
+        min-height: 120px;
+        min-width: 180px;
         text-align: center;
-    }
-    .title {
-        width:100%;
-        -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-        animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     }
     .blurb {
         margin: 0 $spacing-large * 1.8;
@@ -45,6 +41,25 @@
                 &.show--#{$i} {
                     display: block;
                 }
+                .title-- {
+                    background: url('../../img/company-#{$i}.png');
+                    background-size: cover;
+                    width: 180px;
+                    height: 120px;
+                    margin: 25px;
+                    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                    animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                }
+                .title {
+                    background: url('../../img/company-#{$i}.png');
+                    background-size: 155px; 
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 100%;
+                    -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                    animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                }
+
             }
         }
     }   

@@ -61,11 +61,11 @@ class Portfolio extends Component {
                 <div>
 
                     <div id={item.id} onClick={this.toggleHidden.bind(this)} className={'item columns--' + columns + ' portfolio--' + item.id + ' ' + active}>
-                        <div className={'title--' + rest}><h2 id={item.id}>{item.title}</h2></div>
+                        <div className={'title--' + rest}><h2 id={item.id}></h2></div>
                     </div>
 
                     <div className={'columns--1--hidden-item portfolio--' + item.id + ' ' + hidden}>
-                        <div id={item.id} onClick={this.toggleHidden.bind(this)} className='title'><h2 id={item.id}>{item.title}</h2></div>
+                        <div id={item.id} onClick={this.toggleHidden.bind(this)} className='title'><h2 id={item.id}></h2></div>
                         <div className='blurb'>{blurb}</div>
                     </div>
 
