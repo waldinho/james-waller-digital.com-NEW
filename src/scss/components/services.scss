@@ -9,18 +9,21 @@
                     height: 180px;
                     width: 230px;
                     h2 {
-                        background: $primary-red;
-                        color: $black;
-                        padding: $spacing-small;
-                        margin: $spacing-medium;
+                        display: inline;
+                        position: relative; 
+                        top: $spacing-medium *1.5;
+                        left: $spacing-medium;
+                        background: $black;
+                        color: $white;
                         opacity: 0.8;
-                        line-height: $font-size-large * 1.25;
-                        height: 60px;
-                        width: 180px;
+                        line-height: $font-size-large * 1.35;
+                        padding: 0 $spacing-small $spacing-small $spacing-small;
+                        -webkit-box-decoration-break: clone;
+                        box-decoration-break: clone;
                         &:hover {
                             opacity: 1;
                             background: $black;
-                            color: $white;
+                            color: $blue;
                         }
                     }
                 }
