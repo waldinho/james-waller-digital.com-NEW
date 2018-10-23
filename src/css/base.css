@@ -14,13 +14,13 @@ html, body {
   align-items: center;
   width: 100%; }
 
-#root {
-  width: 100%;
-  height: 100%; }
-
 @font-face {
   font-family: 'lostwage';
   src: url("../fonts/lostwages/lostwages.otf"); }
+
+.loader {
+  width: 100%;
+  height: 100%; }
 
 .loader:empty {
   position: absolute;
@@ -28,7 +28,8 @@ html, body {
   left: calc(50% - 4em);
   width: 6em;
   height: 6em;
-  border: 10.1em solid rgba(0, 0, 0, 0.2);
+  border: 1em solid rgba(0, 0, 0, 0.2);
+  border-left: 1em solid #ff6060;
   border-radius: 50%;
   animation: load8 1.1s infinite linear; }
 
