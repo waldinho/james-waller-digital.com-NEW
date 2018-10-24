@@ -1,0 +1,31 @@
+.social {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  position: fixed;
+  bottom: 2.6rem;
+  right: 3rem; }
+  .social .item--1 {
+    background: url("../../img/social-1.png") no-repeat;
+    background-size: 28px;
+    width: 30px;
+    height: 28px; }
+  .social .item--2 {
+    background: url("../../img/social-2.png") no-repeat;
+    background-size: 28px;
+    width: 30px;
+    height: 28px; }
+  .social .item--3 {
+    background: url("../../img/social-3.png") no-repeat;
+    background-size: 28px;
+    width: 30px;
+    height: 28px; }
+  .social .item--4 {
+    background: url("../../img/social-4.png") no-repeat;
+    background-size: 28px;
+    width: 30px;
+    height: 28px; }

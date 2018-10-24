@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Logo from './logo';
+import Social from './social';
 
 class Grid extends Component {
 
@@ -14,6 +15,7 @@ class Grid extends Component {
                 <div className='grid__content'>
                     {this.props.text}
                 </div>
+                <Social />
             </div>
         );
     }
