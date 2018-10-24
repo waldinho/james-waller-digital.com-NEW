@@ -1,0 +1,27 @@
+@import '../variables';
+
+.social {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: fixed;
+    bottom: 2.6rem;
+    right: 3rem;
+    .item {
+        @for $i from 1 through 4 {
+            &--#{$i} {
+                background: url('../../img/social-#{$i}.png') no-repeat;
+                background-size: 28px;
+                width: 30px;
+                height: 28px;
+            }
+            &--#{$i}:hover {
+                
+            }
+        }
+    }   
+}

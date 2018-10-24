@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Logo from './logo';
+import Social from './social';
 
 class Page extends Component {
 
@@ -14,6 +15,7 @@ class Page extends Component {
                 <div className='page__content'>
                     {this.props.text}
                 </div>
+                <Social />
             </div>
         );
     }
