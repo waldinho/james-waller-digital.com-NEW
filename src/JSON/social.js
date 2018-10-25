@@ -13,12 +13,12 @@ export function getSocial() {
         {
             id: 3,
             title: 'google',
-            url: 'https://www.linkedin.com/in/james-waller-573b81b/',
+            url: 'https://plus.google.com/u/0/112625426367168441968',
         },
         {
             id: 4,
             title: 'linked-in',
-            url: 'https://plus.google.com/u/0/112625426367168441968',
+            url: 'https://www.linkedin.com/in/james-waller-573b81b/',
         }
     ]
 }
