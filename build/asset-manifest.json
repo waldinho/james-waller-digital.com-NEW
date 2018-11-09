@@ -1,7 +1,22 @@
 {
-  "main.css": "static/css/main.a92ab1df.css",
-  "main.css.map": "static/css/main.a92ab1df.css.map",
-  "main.js": "static/js/main.a0955f65.js",
-  "main.js.map": "static/js/main.a0955f65.js.map",
-  "static/media/lostwages.otf": "static/media/lostwages.64891ecb.otf"
+  "main.css": "static/css/main.a863dba9.css",
+  "main.css.map": "static/css/main.a863dba9.css.map",
+  "main.js": "static/js/main.62b921fe.js",
+  "main.js.map": "static/js/main.62b921fe.js.map",
+  "static/media/company-1.png": "static/media/company-1.43d114e3.png",
+  "static/media/company-10.png": "static/media/company-10.f7b37d45.png",
+  "static/media/company-11.png": "static/media/company-11.12a6a4e9.png",
+  "static/media/company-12.png": "static/media/company-12.e91dbfc3.png",
+  "static/media/company-2.png": "static/media/company-2.3162bfa2.png",
+  "static/media/company-3.png": "static/media/company-3.358aab40.png",
+  "static/media/company-4.png": "static/media/company-4.879d6c33.png",
+  "static/media/company-5.png": "static/media/company-5.f0d4141b.png",
+  "static/media/company-6.png": "static/media/company-6.8c473211.png",
+  "static/media/company-8.png": "static/media/company-8.af65f530.png",
+  "static/media/company-9.png": "static/media/company-9.201b20de.png",
+  "static/media/lostwages.otf": "static/media/lostwages.64891ecb.otf",
+  "static/media/service-1.png": "static/media/service-1.05b24909.png",
+  "static/media/service-2.png": "static/media/service-2.c6354c40.png",
+  "static/media/service-3.png": "static/media/service-3.beb6b37c.png",
+  "static/media/service-4.png": "static/media/service-4.1df6154e.png"
 }
