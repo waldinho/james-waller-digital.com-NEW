@@ -5,13 +5,15 @@
     padding: 0.6rem 0 0.2rem 0; }
   .portfolio h2 {
     min-height: 120px;
-    min-width: 180px;
+    min-width: 205px;
     text-align: center;
     border: 1px solid #000000; }
     .portfolio h2:hover {
-      box-shadow: inset 0 0 0 5px #2ec4ff;
-      -webkit-animation: blurb-fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-      animation: blurb-fade-in 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      box-shadow: 0px 10px 10px 0px #d5d5d5;
+      -webkit-animation: blurb-fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation: blurb-fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      margin-top: 5px;
+      border: 1px solid #2ec4ff; }
   .portfolio .blurb {
     margin: 0 11%;
     -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -36,12 +38,17 @@
       display: block; }
     .portfolio .portfolio--1 .title-- {
       background: url("../../img/company-1.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--1 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--1 .title {
       background: url("../../img/company-1.png");
       background-size: 155px;
@@ -61,12 +68,17 @@
       display: block; }
     .portfolio .portfolio--2 .title-- {
       background: url("../../img/company-2.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--2 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--2 .title {
       background: url("../../img/company-2.png");
       background-size: 155px;
@@ -86,12 +98,17 @@
       display: block; }
     .portfolio .portfolio--3 .title-- {
       background: url("../../img/company-3.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--3 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--3 .title {
       background: url("../../img/company-3.png");
       background-size: 155px;
@@ -111,12 +128,17 @@
       display: block; }
     .portfolio .portfolio--4 .title-- {
       background: url("../../img/company-4.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--4 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--4 .title {
       background: url("../../img/company-4.png");
       background-size: 155px;
@@ -136,12 +158,17 @@
       display: block; }
     .portfolio .portfolio--5 .title-- {
       background: url("../../img/company-5.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--5 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--5 .title {
       background: url("../../img/company-5.png");
       background-size: 155px;
@@ -161,12 +188,17 @@
       display: block; }
     .portfolio .portfolio--6 .title-- {
       background: url("../../img/company-6.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--6 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--6 .title {
       background: url("../../img/company-6.png");
       background-size: 155px;
@@ -186,12 +218,17 @@
       display: block; }
     .portfolio .portfolio--7 .title-- {
       background: url("../../img/company-7.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--7 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--7 .title {
       background: url("../../img/company-7.png");
       background-size: 155px;
@@ -211,12 +248,17 @@
       display: block; }
     .portfolio .portfolio--8 .title-- {
       background: url("../../img/company-8.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--8 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--8 .title {
       background: url("../../img/company-8.png");
       background-size: 155px;
@@ -236,12 +278,17 @@
       display: block; }
     .portfolio .portfolio--9 .title-- {
       background: url("../../img/company-9.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--9 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--9 .title {
       background: url("../../img/company-9.png");
       background-size: 155px;
@@ -261,12 +308,17 @@
       display: block; }
     .portfolio .portfolio--10 .title-- {
       background: url("../../img/company-10.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--10 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--10 .title {
       background: url("../../img/company-10.png");
       background-size: 155px;
@@ -286,12 +338,17 @@
       display: block; }
     .portfolio .portfolio--11 .title-- {
       background: url("../../img/company-11.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--11 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--11 .title {
       background: url("../../img/company-11.png");
       background-size: 155px;
@@ -311,12 +368,17 @@
       display: block; }
     .portfolio .portfolio--12 .title-- {
       background: url("../../img/company-12.png") no-repeat center center;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
       background-size: 75%;
-      width: 180px;
+      width: 205px;
       height: 120px;
-      margin: -25px 25px 20px 25px;
+      margin: -25px 12.5px 20px 12.5px;
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+      .portfolio .portfolio--12 .title--:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%); }
     .portfolio .portfolio--12 .title {
       background: url("../../img/company-12.png");
       background-size: 155px;
