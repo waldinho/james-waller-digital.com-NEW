@@ -6,8 +6,8 @@
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-direction: column;
+    justify-content: baseline;
     position: fixed;
     bottom: 2.6rem;
     right: 3rem;
@@ -16,8 +16,8 @@
             &--#{$i} {
                 background: url('../../img/social-#{$i}.png') no-repeat;
                 background-size: 28px;
-                width: 30px;
-                height: 28px;
+                width: 28px;
+                height: 38px;
             }
             &--#{$i}:hover {
                 
