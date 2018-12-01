@@ -62,7 +62,7 @@
         border: none; }
         .portfolio .portfolio--1 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--2.hide--2 {
       display: none; }
     .portfolio .portfolio--2.show--2 {
@@ -93,7 +93,7 @@
         border: none; }
         .portfolio .portfolio--2 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--3.hide--3 {
       display: none; }
     .portfolio .portfolio--3.show--3 {
@@ -124,7 +124,7 @@
         border: none; }
         .portfolio .portfolio--3 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--4.hide--4 {
       display: none; }
     .portfolio .portfolio--4.show--4 {
@@ -155,7 +155,7 @@
         border: none; }
         .portfolio .portfolio--4 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--5.hide--5 {
       display: none; }
     .portfolio .portfolio--5.show--5 {
@@ -186,7 +186,7 @@
         border: none; }
         .portfolio .portfolio--5 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--6.hide--6 {
       display: none; }
     .portfolio .portfolio--6.show--6 {
@@ -217,7 +217,7 @@
         border: none; }
         .portfolio .portfolio--6 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--7.hide--7 {
       display: none; }
     .portfolio .portfolio--7.show--7 {
@@ -248,7 +248,7 @@
         border: none; }
         .portfolio .portfolio--7 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--8.hide--8 {
       display: none; }
     .portfolio .portfolio--8.show--8 {
@@ -279,7 +279,7 @@
         border: none; }
         .portfolio .portfolio--8 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--9.hide--9 {
       display: none; }
     .portfolio .portfolio--9.show--9 {
@@ -310,7 +310,7 @@
         border: none; }
         .portfolio .portfolio--9 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--10.hide--10 {
       display: none; }
     .portfolio .portfolio--10.show--10 {
@@ -341,7 +341,7 @@
         border: none; }
         .portfolio .portfolio--10 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--11.hide--11 {
       display: none; }
     .portfolio .portfolio--11.show--11 {
@@ -372,7 +372,7 @@
         border: none; }
         .portfolio .portfolio--11 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
     .portfolio .portfolio--12.hide--12 {
       display: none; }
     .portfolio .portfolio--12.show--12 {
@@ -403,4 +403,4 @@
         border: none; }
         .portfolio .portfolio--12 .title h2:hover {
           box-shadow: none;
-          margin-top: 0; }
+          margin-top: 25px; }
