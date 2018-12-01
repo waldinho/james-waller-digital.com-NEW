@@ -59,10 +59,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--1 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--1 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--2.hide--2 {
       display: none; }
     .portfolio .portfolio--2.show--2 {
@@ -90,10 +91,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--2 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--2 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--3.hide--3 {
       display: none; }
     .portfolio .portfolio--3.show--3 {
@@ -121,10 +123,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--3 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--3 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--4.hide--4 {
       display: none; }
     .portfolio .portfolio--4.show--4 {
@@ -152,10 +155,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--4 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--4 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--5.hide--5 {
       display: none; }
     .portfolio .portfolio--5.show--5 {
@@ -183,10 +187,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--5 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--5 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--6.hide--6 {
       display: none; }
     .portfolio .portfolio--6.show--6 {
@@ -214,10 +219,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--6 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--6 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--7.hide--7 {
       display: none; }
     .portfolio .portfolio--7.show--7 {
@@ -245,10 +251,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--7 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--7 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--8.hide--8 {
       display: none; }
     .portfolio .portfolio--8.show--8 {
@@ -276,10 +283,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--8 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--8 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--9.hide--9 {
       display: none; }
     .portfolio .portfolio--9.show--9 {
@@ -307,10 +315,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--9 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--9 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--10.hide--10 {
       display: none; }
     .portfolio .portfolio--10.show--10 {
@@ -338,10 +347,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--10 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--10 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--11.hide--11 {
       display: none; }
     .portfolio .portfolio--11.show--11 {
@@ -369,10 +379,11 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--11 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--11 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
     .portfolio .portfolio--12.hide--12 {
       display: none; }
     .portfolio .portfolio--12.show--12 {
@@ -400,7 +411,8 @@
       -webkit-animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: blurb-fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
       .portfolio .portfolio--12 .title h2 {
-        border: none; }
+        border: none;
+        margin-top: 20px; }
         .portfolio .portfolio--12 .title h2:hover {
           box-shadow: none;
-          margin-top: 25px; }
+          margin-top: 20px; }
