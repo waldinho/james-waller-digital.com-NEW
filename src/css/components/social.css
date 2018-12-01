@@ -16,7 +16,9 @@
     height: 38px; }
   .social .item--1:hover {
     background: url("../../img/social-1-hover.png") no-repeat;
-    background-size: 28px; }
+    background-size: 28px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
   .social .item--2 {
     background: url("../../img/social-2.png") no-repeat;
     background-size: 28px;
@@ -24,7 +26,9 @@
     height: 38px; }
   .social .item--2:hover {
     background: url("../../img/social-2-hover.png") no-repeat;
-    background-size: 28px; }
+    background-size: 28px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
   .social .item--3 {
     background: url("../../img/social-3.png") no-repeat;
     background-size: 28px;
@@ -32,7 +36,9 @@
     height: 38px; }
   .social .item--3:hover {
     background: url("../../img/social-3-hover.png") no-repeat;
-    background-size: 28px; }
+    background-size: 28px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
   .social .item--4 {
     background: url("../../img/social-4.png") no-repeat;
     background-size: 28px;
@@ -40,4 +46,6 @@
     height: 38px; }
   .social .item--4:hover {
     background: url("../../img/social-4-hover.png") no-repeat;
-    background-size: 28px; }
+    background-size: 28px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease; }
