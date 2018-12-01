@@ -20,7 +20,8 @@
                 height: 38px;
             }
             &--#{$i}:hover {
-                
+                background: url('../../img/social-#{$i}-hover.png') no-repeat;
+                background-size: 28px;
             }
         }
     }   
