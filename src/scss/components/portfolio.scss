@@ -53,8 +53,8 @@
                 }
                 .title-- {
                     background: url('../../img/company-#{$i}.png') no-repeat center center;
-                    -webkit-filter: grayscale(100%);
-                    filter: grayscale(100%);
+                    // -webkit-filter: grayscale(100%);
+                    // filter: grayscale(100%);
                     background-size: 75%;
                     width: 205px;
                     height: 120px;
