@@ -4,4 +4,5 @@ To do:
 2. Add content.
 3. Remember to add stuff in from AKQA (Bunnings, Homebase, etc).
 4. Link up CV
-5. Responsive stuff (use seperate mobile stylesheet)
+5. Add Job title and skills used for each portfolio company on hover.
+6. Responsive stuff (use seperate mobile stylesheet)
