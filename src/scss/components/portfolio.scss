@@ -53,8 +53,8 @@
                 }
                 .title-- {
                     background: url('../../img/company-#{$i}.png') no-repeat center center;
-                    -webkit-filter: grayscale(100%);
-                    filter: grayscale(100%);
+                    // -webkit-filter: grayscale(100%);
+                    // filter: grayscale(100%);
                     background-size: 75%;
                     width: 205px;
                     height: 120px;
@@ -77,9 +77,10 @@
                     animation: blurb-fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
                     h2 {
                         border: none;
+                        margin-top: 20px;
                         &:hover {
                             box-shadow: none;
-                            margin-top: 0;
+                            margin-top: 20px;
                         }
                     }
                 }
