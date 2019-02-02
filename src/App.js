@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// Nav doesn't work without Router for some wierd reason.
 // eslint-disable-next-line
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
